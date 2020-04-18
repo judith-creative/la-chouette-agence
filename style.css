@@ -8,14 +8,12 @@
 html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
-  font-size: 10px;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 body {
   margin: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
   line-height: 1.42857143;
   color: #333;
   background-color: #fff;
@@ -134,7 +132,6 @@ code,
 kbd,
 pre,
 samp {
-  font-family: monospace, monospace;
   font-size: 1em;
 }
 
@@ -339,7 +336,6 @@ button,
 input,
 select,
 textarea {
-  font-family: inherit;
   font-size: inherit;
   line-height: inherit;
 }
@@ -445,7 +441,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: inherit;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
@@ -532,17 +527,17 @@ h6 small {
 
 .h1,
 h1 {
-  font-size: 36px;
+  font-size: 2em;
 }
 
 .h2,
 h2 {
-  font-size: 30px;
+  font-size: 1.6em;
 }
 
 .h3,
 h3 {
-  font-size: 24px;
+  font-size: 1.2em;
 }
 
 .h4,
@@ -797,7 +792,7 @@ abbr[title] {
 blockquote {
   padding: 10px 20px;
   margin: 0 0 20px;
-  font-size: 17.5px;
+  font-size: 1.1em;
   border-left: 5px solid #eee;
 }
 
@@ -853,13 +848,6 @@ address {
   margin-bottom: 20px;
   font-style: normal;
   line-height: 1.42857143;
-}
-
-code,
-kbd,
-pre,
-samp {
-  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
 code {
@@ -2752,10 +2740,10 @@ textarea.input-lg {
 }
 .btn {
   display: inline-block;
-  padding: 6px 12px;
-  margin-bottom: 0;
-  font-size: 14px;
-  font-weight: 400;
+  padding: 12px 28px;
+  margin: 22px 5px 5px 0;
+  font-size: 1em;
+  font-weight: 700;
   line-height: 1.42857143;
   text-align: center;
   white-space: nowrap;
@@ -6318,7 +6306,6 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -6452,7 +6439,6 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -7250,27 +7236,17 @@ footer {
   margin-top: 80px;
 }
 
-#bloc-1-hero h1 {
-  font-size: 32px;
-}
-
 h1,
 h2,
-h3,
 p,
 label,
 a {
-  font-family: "helvetica";
   font-weight: 400;
   color: #575757 !important;
 }
 
 .container {
   max-width: 1000px;
-}
-
-p {
-  font-size: 11px;
 }
 
 .tight-width-whitespace {
@@ -7283,12 +7259,10 @@ p {
 }
 
 h2 {
-  font-size: 22px;
   line-height: 1.4em;
 }
 
 h3 {
-  font-size: 15px;
   text-transform: uppercase;
   font-weight: 700;
   color: #333333 !important;
@@ -7401,7 +7375,6 @@ p {
   }
 }
 .btn {
-  margin: 22px 5px 5px 0;
   border: 1px solid rgba(0, 0, 0, 0.08);
   border-bottom-color: rgba(0, 0, 0, 0.1);
   text-shadow: 0 1px 0 rgba(0, 0, 1, 0.1);
@@ -7409,9 +7382,6 @@ p {
   border-radius: 40px;
   color: #FFFFFF !important;
   text-transform: uppercase;
-  padding: 12px 28px 12px 28px;
-  font-size: 16px;
-  font-weight: 700;
   background: #F3976C;
 }
 
@@ -7664,8 +7634,6 @@ a[data-lightbox]:hover img {
 .navbar-brand {
   height: auto;
   padding: 3px 15px;
-  font-size: 25px;
-  font-weight: 600;
   line-height: 44px;
 }
 
