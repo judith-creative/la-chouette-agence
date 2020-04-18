@@ -1,0 +1,99 @@
+@font-face {
+    font-family: et-line;
+    src: url(fonts/et-line.eot);
+    src: url(fonts/et-line.eot?#iefix) format('embedded-opentype'),
+    url(fonts/et-line.woff) format('woff'),
+    url(fonts/et-line.ttf) format('truetype'),
+    url(fonts/et-line.svg#et-line) format('svg');
+    font-weight: 400;
+    font-style: normal
+}
+
+.et-icon-browser,
+.et-icon-edit,
+.et-icon-presentation {
+    font-family: et-line;
+    line-height: 1;
+    display: inline-block;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .3);
+    margin-bottom: 14px;
+    margin-top: 24px;
+    color: #364577;
+    font-size: 60px;
+}
+
+.et-icon-browser:before {
+    content: "\e00c"
+}
+
+.et-icon-presentation:before {
+    content: "\e00e"
+}
+
+.et-icon-edit:before {
+    content: "\e01c"
+}
+
+/*!
+ *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+
+ @font-face {
+    font-family: 'FontAwesome';
+    src: url('fonts/fontawesome-webfont.eot?v=4.7.0');
+    src: url('/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'),
+    url('fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'),
+    url('fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'),
+    url('fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'),
+    url('fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+
+.fa {
+    display: inline-block;
+    font: 30px FontAwesome;
+    text-rendering: auto;
+    margin-right: 20px;
+}
+
+.fa-chevron-up:before {
+    content: "\f077"
+}
+
+.fa-chevron-left:before {
+    content: "\f053"
+}
+
+.fa-chevron-right:before {
+    content: "\f054"
+}
+
+.fa-twitter:before {
+    content: "\f099"
+}
+
+.fa-facebook:before {
+    content: "\f09a"
+}
+
+.fa-dribbble:before {
+    content: "\f17d"
+}
+
+.fa-instagram:before {
+    content: "\f16d"
+}
+
+.fa-google-plus:before {
+    content: "\f0d5"
+}
+
+.fa-pinterest:before {
+    content: "\f0d2"
+}
+
+.fa-linkedin:before {
+    content: "\f0e1"
+}
