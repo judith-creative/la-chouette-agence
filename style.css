@@ -285,14 +285,6 @@ button {
     font-size: 30px!important;
 }
 
-.icon-lg {
-    font-size: 60px!important;
-}
-
-.sm-shadow {
-    text-shadow: 0 1px 2px rgba(0, 0, 0, .3);
-}
-
 .panel-sq,
 .panel-sq .panel-heading,
 .panel-sq .panel-footer {
@@ -518,11 +510,6 @@ h4 {
     color: #333333!important;
 }
 
-.icons {
-    margin-bottom: 14px;
-    margin-top: 24px;
-}
-
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -557,11 +544,6 @@ p a:hover {
 
 .ltc-atomic-tangerine:hover {
     color: #c27956!important;
-}
-
-.icon-dark-slate-blue {
-    color: #364577!important;
-    border-color: #364577!important;
 }
 
 .bg-banniere {
