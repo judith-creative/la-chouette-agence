@@ -16,7 +16,6 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.42857143;
   color: #333;
-  background-color: #fff;
 }
 
 article,
@@ -54,6 +53,7 @@ template {
 }
 
 a {
+  color: inherit;
   background-color: transparent;
 }
 
@@ -341,7 +341,6 @@ textarea {
 }
 
 a {
-  color: #337ab7;
   text-decoration: none;
 }
 
@@ -443,7 +442,6 @@ h5,
 h6 {
   font-weight: 500;
   line-height: 1.1;
-  color: inherit;
 }
 
 .h1 .small,
@@ -7207,9 +7205,21 @@ a:hover {
   padding: 50px;
 }
 
+.contrast {
+  color: #ff9966;
+}
+
+.contrast + p {
+  color: #ffffff;
+}
+
 header,
 footer {
   padding: 20px 50px;
+}
+
+#bloc-8 {
+  background-color: #ff9966;
 }
 
 #bloc-4-portfolio .row {
@@ -7224,7 +7234,7 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: rgba(51, 51, 51, 0.05);
   background-size: 280px 280px;
 }
 
@@ -7236,13 +7246,16 @@ footer {
   margin-top: 80px;
 }
 
+h1 {
+  color: #ff9966;
+}
+
 h1,
 h2,
 p,
 label,
 a {
   font-weight: 400;
-  color: #575757 !important;
 }
 
 .container {
@@ -7265,7 +7278,6 @@ h2 {
 h3 {
   text-transform: uppercase;
   font-weight: 700;
-  color: #333333 !important;
 }
 
 .med-width-whitespace {
@@ -7274,14 +7286,10 @@ h3 {
   box-shadow: 0px 0px 0px #000000;
 }
 
-h1 {
-  color: #333333 !important;
-}
-
-p a {
-  color: #FFFFFF !important;
+p a[href="page2.html"] {
+  color: #ffffff;
   font-weight: 900;
-  text-decoration: underline !important;
+  text-decoration: underline;
 }
 
 p a:hover {
@@ -7290,11 +7298,16 @@ p a:hover {
 
 .bg-banniere {
   background-image: url("img/la-chouette-agence-banniere.webp");
-  background-color: #364577;
+  background-color: #333333;
 }
 
 .bg-presentation {
   background-image: url("img/image-de-presentation.webp");
+  background-color: #333333;
+}
+
+.bloc.texture {
+  background-color: #333333;
 }
 
 @media (max-width: 1024px) {
@@ -7329,7 +7342,7 @@ p a:hover {
   }
 }
 .black-background {
-  background-color: rgba(165, 147, 99, 0.7);
+  background-color: rgba(130, 115, 74, 0.7);
   padding: 40px;
 }
 
@@ -7380,18 +7393,21 @@ p {
   text-shadow: 0 1px 0 rgba(0, 0, 1, 0.1);
   box-shadow: 0 1px 3px rgba(0, 0, 1, 0.25), inset 0 1px 0 0 rgba(255, 255, 255, 0.15);
   border-radius: 40px;
-  color: #FFFFFF !important;
+  color: inherit;
   text-transform: uppercase;
-  background: #F3976C;
+  background: #ff9966;
 }
 
 .btn:hover {
-  background: #c27956 !important;
-  color: #FFFFFF !important;
+  background: #ffb18a;
 }
 
 button {
   outline: none !important;
+}
+button.btn:hover {
+  color: #ff9966;
+  background-color: #333333;
 }
 
 .btn-d,

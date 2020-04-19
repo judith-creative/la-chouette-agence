@@ -4,18 +4,21 @@
     text-shadow: 0 1px 0 rgba(0, 0, 1, .1);
     box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);
     border-radius: 40px;
-    color: #FFFFFF!important;
+    color: inherit;
     text-transform: uppercase;
-    background: #F3976C;
+    background: $theme-color-light;
 }
 
 .btn:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: $theme-color-lighter;
 }
 
 button {
     outline: none!important;
+    &.btn:hover {
+        color: $theme-color-light;
+        background-color: $theme-color-dark;
+    }
 }
 
 .btn-d,
