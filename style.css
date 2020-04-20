@@ -6080,7 +6080,6 @@ button.close {
   display: none;
   overflow: hidden;
   -webkit-overflow-scrolling: touch;
-  outline: 0;
 }
 
 .modal.fade .modal-dialog {
@@ -6110,7 +6109,6 @@ button.close {
   border: 1px solid #999;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 6px;
-  outline: 0;
   box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
 }
 
@@ -6594,7 +6592,6 @@ button.close {
   color: #fff;
   text-decoration: none;
   filter: alpha(opacity=90);
-  outline: 0;
   opacity: 0.9;
 }
 
@@ -7049,7 +7046,6 @@ body {
 a,
 button {
   transition: all 0.3s ease-in-out;
-  outline: none !important;
 }
 
 a:hover {
@@ -7285,9 +7281,6 @@ p {
   background: #ffb18a;
 }
 
-button {
-  outline: none !important;
-}
 button.btn:hover {
   color: #ff9966;
   background-color: #333333;
