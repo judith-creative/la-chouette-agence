@@ -99,10 +99,11 @@
 					<span itemprop="addressLocality">Lyon</span>
 				</p>
 				<p itemprop="telephone">04 72 50 50 50</p>
-				<p>
-					Ouvert
-					<time itemprop="openingHours" datetime="Mo-Fr 09:00-18:00">
-						du lundi au vendredi de 9h à 18h</time>
+				<p itemscope itemtype="http://schema.org/OpeningHoursSpecification">
+					Ouvert du lundi au vendredi de
+					<time itemprop="opens" content="09:00:00">9h</time>
+					<span> à </span>
+					<time itemprop="closes" content="18:00:00">18h</time>
 				</p>
 				<p><a href="mailto:contact@lachouetteagence.com" itemprop="email">contact@lachouetteagence.com</a></p>
 			</div>
