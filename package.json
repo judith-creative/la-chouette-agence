@@ -4,7 +4,7 @@
   "description": "OpenClassrooms Projet 4 : Optimisez un site web existant\r For this project I am asked to\r -conduct a seo audit on the existing website\r -make a list of 10 recommandations to improve seo\r -adapt code accordingly\r -compare results before - after",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./main.scss:./style.css"
+    "sass": "sass --watch ./main.scss:./style.css --style compressed"
   },
   "repository": {
     "type": "git",
